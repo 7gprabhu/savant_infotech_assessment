@@ -1,5 +1,5 @@
 module "alpha_users" {
-  source = "../modules/iam"
+  source = "../scenario2/modules/iam"
 
   users = {
     alice = { name = "Alice", role = "Developer", products = ["Alpha", "Gamma"], group = "alpha" },
