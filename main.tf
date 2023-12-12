@@ -1,5 +1,5 @@
 provider "aws" {
-  region = "us-east-1"  # replace with your desired region
+  region = "us-east-1"
 }
 
 module "alpha" {
